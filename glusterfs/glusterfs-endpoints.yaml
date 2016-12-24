@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: endpoints
+metadata:
+  name: glusterfs-cluster
+  namespace: kube-system
+subsets:
+  - addresses:
+      - ip: 142.4.214.89
+    ports:
+      - port: 49152
+  - addresses:
+      - ip: 37.187.72.203
+    ports:
+      - port: 49152
