@@ -4,8 +4,6 @@ metadata:
   name: glusterfs-cluster-gitlab-postgresql-volume
   namespace: gitlab
 spec:
-  capacity:
-    storage: 1Gi
   accessModes:
     - ReadWriteMany
   glusterfs:
