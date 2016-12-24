@@ -6,8 +6,8 @@ subsets:
   - addresses:
       - ip: 142.4.214.89
     ports:
-      - port: 49152
+      - port: 1
   - addresses:
       - ip: 37.187.72.203
     ports:
-      - port: 49152
+      - port: 1
