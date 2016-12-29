@@ -1,11 +1,10 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  namespace: gitlab
-  name: glusterfs-cluster-gitlab-redis-claim
+  name: glusterfs-cluster-gitlab-git-claim
 spec:
   accessModes:
     - ReadWriteMany
   resources:
     requests:
-      storage: 1Gi
+      storage: 50Gi
